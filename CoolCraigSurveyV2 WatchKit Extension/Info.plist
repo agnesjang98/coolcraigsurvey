@@ -32,6 +32,8 @@
 	</dict>
 	<key>WKExtensionDelegateClassName</key>
 	<string>$(PRODUCT_MODULE_NAME).ExtensionDelegate</string>
+	<key>FIREBASE_API_KEY</key>
+	<string>$(FIREBASE_API_KEY)</string>
 	<key>WKWatchOnly</key>
 	<true/>
 </dict>

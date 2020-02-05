@@ -11,10 +11,16 @@
 		AB34A7F223E0BFE500E37981 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB34A7F023E0BFE500E37981 /* Interface.storyboard */; };
 		AB34A7F423E0BFE800E37981 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB34A7F323E0BFE800E37981 /* Assets.xcassets */; };
 		AB34A7FB23E0BFE800E37981 /* CoolCraigSurveyV2 WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = AB34A7FA23E0BFE800E37981 /* CoolCraigSurveyV2 WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		AB34A80023E0BFE800E37981 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB34A7FF23E0BFE800E37981 /* InterfaceController.swift */; };
 		AB34A80223E0BFE800E37981 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB34A80123E0BFE800E37981 /* ExtensionDelegate.swift */; };
 		AB34A80423E0BFE800E37981 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB34A80323E0BFE800E37981 /* NotificationController.swift */; };
 		AB34A80623E0BFE900E37981 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB34A80523E0BFE900E37981 /* Assets.xcassets */; };
+		AB34A81723E0CCFA00E37981 /* Config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = AB34A81623E0CCFA00E37981 /* Config.xcconfig */; };
+		AB34A81923E0CD5700E37981 /* EntrypointInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB34A81823E0CD5700E37981 /* EntrypointInterfaceController.swift */; };
+		AB34A81B23E0CD6400E37981 /* LoginInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB34A81A23E0CD6400E37981 /* LoginInterfaceController.swift */; };
+		AB34A81D23E0CE1900E37981 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB34A81C23E0CE1900E37981 /* Utils.swift */; };
+		AB34A81F23E0CE4500E37981 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB34A81E23E0CE4500E37981 /* Configuration.swift */; };
+		AB34A82223E246D300E37981 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB34A82123E246D300E37981 /* InterfaceController.swift */; };
+		AB34A82423E267DA00E37981 /* WelcomeInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB34A82323E267DA00E37981 /* WelcomeInterfaceController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,12 +72,18 @@
 		AB34A7F323E0BFE800E37981 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB34A7F523E0BFE800E37981 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB34A7FA23E0BFE800E37981 /* CoolCraigSurveyV2 WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "CoolCraigSurveyV2 WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AB34A7FF23E0BFE800E37981 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
 		AB34A80123E0BFE800E37981 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		AB34A80323E0BFE800E37981 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		AB34A80523E0BFE900E37981 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB34A80723E0BFE900E37981 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB34A80823E0BFE900E37981 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		AB34A81623E0CCFA00E37981 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		AB34A81823E0CD5700E37981 /* EntrypointInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntrypointInterfaceController.swift; sourceTree = "<group>"; };
+		AB34A81A23E0CD6400E37981 /* LoginInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInterfaceController.swift; sourceTree = "<group>"; };
+		AB34A81C23E0CE1900E37981 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		AB34A81E23E0CE4500E37981 /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		AB34A82123E246D300E37981 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		AB34A82323E267DA00E37981 /* WelcomeInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeInterfaceController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +122,7 @@
 				AB34A7F023E0BFE500E37981 /* Interface.storyboard */,
 				AB34A7F323E0BFE800E37981 /* Assets.xcassets */,
 				AB34A7F523E0BFE800E37981 /* Info.plist */,
+				AB34A81623E0CCFA00E37981 /* Config.xcconfig */,
 			);
 			path = "CoolCraigSurveyV2 WatchKit App";
 			sourceTree = "<group>";
@@ -117,12 +130,17 @@
 		AB34A7FE23E0BFE800E37981 /* CoolCraigSurveyV2 WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				AB34A7FF23E0BFE800E37981 /* InterfaceController.swift */,
 				AB34A80123E0BFE800E37981 /* ExtensionDelegate.swift */,
 				AB34A80323E0BFE800E37981 /* NotificationController.swift */,
 				AB34A80523E0BFE900E37981 /* Assets.xcassets */,
 				AB34A80723E0BFE900E37981 /* Info.plist */,
 				AB34A80823E0BFE900E37981 /* PushNotificationPayload.apns */,
+				AB34A81823E0CD5700E37981 /* EntrypointInterfaceController.swift */,
+				AB34A81A23E0CD6400E37981 /* LoginInterfaceController.swift */,
+				AB34A81C23E0CE1900E37981 /* Utils.swift */,
+				AB34A81E23E0CE4500E37981 /* Configuration.swift */,
+				AB34A82123E246D300E37981 /* InterfaceController.swift */,
+				AB34A82323E267DA00E37981 /* WelcomeInterfaceController.swift */,
 			);
 			path = "CoolCraigSurveyV2 WatchKit Extension";
 			sourceTree = "<group>";
@@ -227,6 +245,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB34A81723E0CCFA00E37981 /* Config.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,9 +273,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB34A82423E267DA00E37981 /* WelcomeInterfaceController.swift in Sources */,
 				AB34A80423E0BFE800E37981 /* NotificationController.swift in Sources */,
+				AB34A82223E246D300E37981 /* InterfaceController.swift in Sources */,
 				AB34A80223E0BFE800E37981 /* ExtensionDelegate.swift in Sources */,
-				AB34A80023E0BFE800E37981 /* InterfaceController.swift in Sources */,
+				AB34A81F23E0CE4500E37981 /* Configuration.swift in Sources */,
+				AB34A81923E0CD5700E37981 /* EntrypointInterfaceController.swift in Sources */,
+				AB34A81B23E0CD6400E37981 /* LoginInterfaceController.swift in Sources */,
+				AB34A81D23E0CE1900E37981 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +313,7 @@
 /* Begin XCBuildConfiguration section */
 		AB34A80923E0BFE900E37981 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB34A81623E0CCFA00E37981 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -340,6 +365,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				"OTHER_LDFLAGS[arch=*]" = "-all_load";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -348,6 +374,7 @@
 		};
 		AB34A80A23E0BFE900E37981 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB34A81623E0CCFA00E37981 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -392,6 +419,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				"OTHER_LDFLAGS[arch=*]" = "-all_load";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -401,6 +429,7 @@
 		};
 		AB34A80C23E0BFE900E37981 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB34A81623E0CCFA00E37981 /* Config.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
@@ -423,6 +452,7 @@
 		};
 		AB34A80D23E0BFE900E37981 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB34A81623E0CCFA00E37981 /* Config.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
@@ -445,6 +475,7 @@
 		};
 		AB34A81023E0BFE900E37981 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB34A81623E0CCFA00E37981 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -464,6 +495,7 @@
 		};
 		AB34A81123E0BFE900E37981 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB34A81623E0CCFA00E37981 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -483,6 +515,7 @@
 		};
 		AB34A81423E0BFE900E37981 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB34A81623E0CCFA00E37981 /* Config.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -496,6 +529,7 @@
 		};
 		AB34A81523E0BFE900E37981 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB34A81623E0CCFA00E37981 /* Config.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;

@@ -12,6 +12,8 @@ import Foundation
 
 class InterfaceController: WKInterfaceController {
 
+    @IBOutlet weak var SurveyLabel: WKInterfaceLabel!
+    @IBOutlet weak var LoggedInLabel: WKInterfaceLabel!
     override func awake(withContext context: Any?) {
         super.awake(withContext: context)
         
